@@ -16,6 +16,7 @@ public class Converter {
 		int inch = i;
 		double feet = 0;
 		feet = (double)inch/12;
+		System.out.println("Hi");
 		return "<InchToFeetService>"
 				+"<Inch>"+inch+"</Inch>"
 				+"<Feet>"+feet+"</Feet>"
